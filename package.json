@@ -1,0 +1,17 @@
+{
+  "name": "gunslinger-3d-network",
+  "version": "1.0.0",
+  "description": "Gunslinger 3D Network - multiplayer 3D top-down shooter (Socket.IO room relay for Render)",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  }
+}
